@@ -15,9 +15,9 @@ const path = require('path');
     //     runtimeChunk: 'single',
     // },
 	output: {
-        // filename: 'main.js',
+      
         filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, './dist'),
         //clean: true,
 	},
      module: {
