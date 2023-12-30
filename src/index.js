@@ -1,22 +1,24 @@
  import './style.css';
- import clickMenu from './clickMenu.js'
+//  import clickMenu from './clickMenu.js'
 //  import cat from './cat128.png';
 //  import bg from './pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg';
 
 
 
 // CLICK TO TOGGLE MENU 
-const about = document.querySelector('.about_title');
-const about_menu = document.querySelector('.about_menu');
+const about = document.querySelector('.about_title'); //div
+const about_menu = document.querySelector('.about_menu'); //ul
 
 
-about.addEventListener('click', toggleMenuOnClick);
+ about.addEventListener('click', toggleMenuOnClick);
 
-about.addEventListener('mouseout', function(){
-    about_menu.classList.add('hidden');
+// about.addEventListener('mouseout', function(){
+//     about_menu.classList.add('hidden');
+   
+   
+// });
 
-});
-about_menu.addEventListener('mouseout', toggleMenuOnClick);
+// about_menu.addEventListener('mouseout', toggleMenuOnClick); //THIS CAUSING FLICKERS
 
 function toggleMenuOnClick(){
   const classes = about_menu.classList;
@@ -24,8 +26,6 @@ function toggleMenuOnClick(){
 }
 
 
-
-//call clickMenu with menu element
 
 
 
@@ -35,13 +35,55 @@ const services = document.querySelector('.services_title');
 const services_menu = document.querySelector('.services_menu');
 
 services.addEventListener('mouseenter',toggleMenuOnHover);
-services.addEventListener('mouseout', toggleMenuOnHover);
+
 services_menu.addEventListener('mouseleave',toggleMenuOnHover);
 
 function toggleMenuOnHover(){
   const classes = services_menu.classList;
   classes.toggle("hidden");
 }
+
+
+//TESTTING P TOGGLE
+
+const p_title = document.querySelector('.p_title');
+const p_menu = document.querySelector('.p_menu');
+
+
+
+p_title.addEventListener('click', toggleMenu)
+
+function toggleMenu(){
+  const classes = p_menu.classList;
+  classes.toggle("hidden");
+}
+
+
+
+//OPEN MOBILE MENU
+const hamburger = document.querySelector('.hamburger');
+const mobile_ul = document.querySelector('.mobile_ul');
+
+hamburger.addEventListener('click', toggleMobileMenu);
+
+function toggleMobileMenu(){
+  const classes = mobile_ul.classList;
+  classes.toggle("hidden");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,6 +97,7 @@ function toggleMenuOnHover(){
 
 //import saloonImg from './saloon.png';
 // function imageFactory(image){
+
 // 	const myImage = new Image();
 // 	myImage.src = image;
 // 	return myImage;

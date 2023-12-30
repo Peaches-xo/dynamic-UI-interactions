@@ -22,8 +22,9 @@ body {
 
 }  
 
-nav.menu {
+nav {
     display: flex;
+    align-items: center;
     background-color: white;
     border-radius: 20px;
     margin: 10px;
@@ -33,22 +34,51 @@ nav.menu {
     z-index: 1;
 }
 
-p.menu_p {
+nav.mobile_menu{
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+img{
+    height: 30px;
+    padding: 5px;
+}
+
+/* title  */
+p.menu_p,
+p.p_title {
     padding: 20px;
     font-weight: 900;
     transition: 0.4s ease;
     border-radius: 2px;
     color: #2b2b2b;
-
+    cursor: pointer;
 }
 
-p.menu_p:hover,li:hover{
-  
+ul.menu_ul{
+    color: #2b2b2b;
+}
+
+/* div.menu_p:hover,
+li:hover
+*/
+p.p_title:hover{
+    position: relative;
     color: transparent;
     background: linear-gradient(110deg, #fc5c7caa, #916afbab);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    cursor: pointer;
+} 
+
+p.menu_p:hover{
+    color: #fc5c7caa;
+}
+
+li:hover{
+    color: transparent;
+    background: linear-gradient(110deg, #fc5c7caa, #916afbab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p.menu_p:nth-child(2) {
@@ -56,33 +86,74 @@ p.menu_p:nth-child(2) {
 }
 
 li{
-    cursor: pointer;
-    padding:5px 0px;
+    padding: 5px 0px;
 }
 
 
-.hidden{
+.hidden,
+.mobile_menu{
     display: none;
 }
 
 ul.menu_ul{
+    cursor: pointer;
     position: absolute;
     top: 70px;
-    background: #ffffffba;
+    margin-top: -10px;
     padding: 10px;
+    background: #ffffffba;
+    font-weight: 400;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     box-shadow: 5px 5px 20px -15px;
 }
 
 ul.about_menu{
-    right: 12%;
+    right:15%;
 }
 
 ul.services_menu{
-    right: 2%;
-    margin-top: -10px;
-    padding-top: 20px;
+    right: 8%;
     z-index: 0;
 }
 
+ul.p_menu{
+    right: 2%;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    nav.menu{
+        display: none;
+    }
+
+    .mobile_menu{
+        display: flex;
+    }
+    .mobile_ul{
+        width: 93%;
+        cursor: pointer;
+        position: absolute;
+        top: 60px;
+        margin-top: -10px;
+        padding: 16px 10px 10px;
+        background: #ffffffba;
+        font-weight: 400;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        box-shadow: 5px 5px 20px -15px;
+        left: 3px;
+      
+    }
+
+    .menu_li{
+        width: 30%;
+        border-right: 1px solid lightgrey;
+    }
+
+
+
+
+}

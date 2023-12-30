@@ -18,8 +18,9 @@ const path = require('path');
     plugins: [
         new HtmlWebpackPlugin({
           title: 'Custom template',
-          // Load a custom template (lodash by default)
-          template: './dist/index.html'
+        //   template: './dist/index.html',
+           template: path.join(__dirname, "src/indextemplate.html"),
+          inject: false,
         })
       ],
 	output: {
