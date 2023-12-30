@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 	module.exports = {
@@ -14,6 +15,13 @@ const path = require('path');
     // optimization: {
     //     runtimeChunk: 'single',
     // },
+    plugins: [
+        new HtmlWebpackPlugin({
+          title: 'Custom template',
+          // Load a custom template (lodash by default)
+          template: './dist/index.html'
+        })
+      ],
 	output: {
       
         filename: '[name].bundle.js',

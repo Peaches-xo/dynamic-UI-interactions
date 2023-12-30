@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* @font-face {\n    font-family: 'MyFont';\n    src: url('./my-font.woff2') format('woff2'),\n    url('./my-font.woff') format('woff');\n    font-weight: 600;\n    font-style: normal;\n    }\n    */\n\n*{\n    margin: 0;\n    padding: 0;\n    list-style-type: none;\n    text-decoration: none;\n}\nbody {\n    background-color: rgb(240, 189, 189);\n    /* font-family: 'MyFont'; */\n    /* background: url('./pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg');  */\n    opacity: 0.9;\n\n}  `, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* @font-face {\n    font-family: 'MyFont';\n    src: url('./my-font.woff2') format('woff2'),\n    url('./my-font.woff') format('woff');\n    font-weight: 600;\n    font-style: normal;\n    }\n    */\n\n*{\n    margin: 0;\n    padding: 0;\n    list-style-type: none;\n    text-decoration: none;\n}\nbody {\n    background-color: rgba(240, 189, 189, 0.159);\n    font-family:Arial, Helvetica, sans-serif;\n    background: linear-gradient(110deg, #fc5c7d47, #916afb5c);\n    /* font-family: 'MyFont'; */\n    opacity: 0.9;\n\n}  \n\nnav.menu {\n    display: flex;\n    background-color: white;\n    border-radius: 20px;\n    margin: 10px;\n    box-shadow: 5px 5px 20px -15px;\n    height: 60px;\n    position: relative;\n    z-index: 1;\n}\n\np.menu_p {\n    padding: 20px;\n    font-weight: 900;\n    transition: 0.4s ease;\n    border-radius: 2px;\n    color: #2b2b2b;\n\n}\n\np.menu_p:hover,li:hover{\n  \n    color: transparent;\n    background: linear-gradient(110deg, #fc5c7caa, #916afbab);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    cursor: pointer;\n}\n\np.menu_p:nth-child(2) {\n    margin-left: auto;\n}\n\nli{\n    cursor: pointer;\n    padding:5px 0px;\n}\n\n\n.hidden{\n    display: none;\n}\n\nul.menu_ul{\n    position: absolute;\n    top: 70px;\n    background: #ffffffba;\n    padding: 10px;\n    border-bottom-left-radius: 16px;\n    border-bottom-right-radius: 16px;\n    box-shadow: 5px 5px 20px -15px;\n}\n\nul.about_menu{\n    right: 12%;\n}\n\nul.services_menu{\n    right: 2%;\n    margin-top: -10px;\n    padding-top: 20px;\n    z-index: 0;\n}\n\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,33 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/clickMenu.js":
+/*!**************************!*\
+  !*** ./src/clickMenu.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   clickMenu: () => (/* binding */ clickMenu)\n/* harmony export */ });\n//clickmenu.js\n\nfunction clickMenu(){\n\n\n  \n        const classes = about_menu.classList;\n        classes.toggle(\"hidden\");\n      \n\n}\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/clickMenu.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _cat128_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cat128.png */ \"./src/cat128.png\");\n/* harmony import */ var _pawel_czerwinski_n_ytZFxeDDU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg */ \"./src/pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg\");\n \n \n \n\n\nconsole.log('hi from index.js!');\n\n//import saloonImg from './saloon.png';\n// function imageFactory(image){\n// \tconst myImage = new Image();\n// \tmyImage.src = image;\n// \treturn myImage;\n// }\n//imageFactory(saloonImg);\n\n\nfunction component() {\n    const element = document.createElement('div');\n  \n    // Lodash, currently included via a script, is required for this line to work\n    // element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n    // element.textContent = \"Hello Webpackety\";\n\n      // Add the image to our existing div.\n      const myCat = new Image();\n      myCat.src = _cat128_png__WEBPACK_IMPORTED_MODULE_1__;\n\n      element.appendChild(myCat);\n  \n    return element;\n  }\n  \n  document.body.appendChild(component());\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/cat128.png":
-/*!************************!*\
-  !*** ./src/cat128.png ***!
-  \************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"d366e975c94039faca4c.png\";\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/cat128.png?");
-
-/***/ }),
-
-/***/ "./src/pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg":
-/*!*******************************************************!*\
-  !*** ./src/pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg ***!
-  \*******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"11017e7abd990b53685d.jpg\";\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _clickMenu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./clickMenu.js */ \"./src/clickMenu.js\");\n \n \n//  import cat from './cat128.png';\n//  import bg from './pawel-czerwinski-n_ytZFxeDDU-unsplash.jpg';\n\n\n\n// CLICK TO TOGGLE MENU \nconst about = document.querySelector('.about_title');\nconst about_menu = document.querySelector('.about_menu');\n\n\nabout.addEventListener('click', toggleMenuOnClick);\n\nabout.addEventListener('mouseout', function(){\n    about_menu.classList.add('hidden');\n\n});\nabout_menu.addEventListener('mouseout', toggleMenuOnClick);\n\nfunction toggleMenuOnClick(){\n  const classes = about_menu.classList;\n  classes.toggle(\"hidden\");\n}\n\n\n\n//call clickMenu with menu element\n\n\n\n\n//HOVER TO TOGGLE MENU \nconst services = document.querySelector('.services_title');\nconst services_menu = document.querySelector('.services_menu');\n\nservices.addEventListener('mouseenter',toggleMenuOnHover);\nservices.addEventListener('mouseout', toggleMenuOnHover);\nservices_menu.addEventListener('mouseleave',toggleMenuOnHover);\n\nfunction toggleMenuOnHover(){\n  const classes = services_menu.classList;\n  classes.toggle(\"hidden\");\n}\n\n\n\n\n\n\n\n\n\n\n\n//import saloonImg from './saloon.png';\n// function imageFactory(image){\n// \tconst myImage = new Image();\n// \tmyImage.src = image;\n// \treturn myImage;\n// }\n//imageFactory(saloonImg);\n\n\nfunction component() {\n    const element = document.createElement('div');\n  \n    // Lodash, currently included via a script, is required for this line to work\n    // element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n    // element.textContent = \"Hello Webpackety\";\n\n      // Add the image to our existing div.\n      const myCat = new Image();\n      myCat.src = cat;\n\n      element.appendChild(myCat);\n  \n    return element;\n  }\n  \n  // document.body.appendChild(component());\n\n//# sourceURL=webpack://dynamic-ui-interactions/./src/index.js?");
 
 /***/ })
 
@@ -191,18 +181,6 @@ eval("module.exports = __webpack_require__.p + \"11017e7abd990b53685d.jpg\";\n\n
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -217,29 +195,6 @@ eval("module.exports = __webpack_require__.p + \"11017e7abd990b53685d.jpg\";\n\n
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
