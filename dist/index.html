@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpack</title>
-    <!-- <script src="https://unpkg.com/lodash@4.17.20"></script> -->
+
 
     <link rel="stylesheet" type="text/css" src="style.css" />
 </head>
@@ -16,39 +16,47 @@
 
      <nav class="menu">
 
-        <p class="menu_p">Home</p>
+        <div class="container">
+            <p class="menu_p">Home</p>
+        </div>
 
-        <p class="menu_p about_title">Click Me</p>
-        <ul class="menu_ul about_menu hidden">
-            <li class="menu_li">Hello Kitty</li>
-            <li class="menu_li">Cinnamoroll</li>
-            <li class="menu_li">My Melody</li>
-            <li class="menu_li">Pompom Purin</li>
-            <li class="menu_li">Kuromi</li>
-        </ul>
+        <div class="container">
+            <p class="menu_p about_title">Hover Me 1</p>
+            <ul class="menu_ul about_menu hidden">
+                <li class="menu_li">Hello Kitty</li>
+                <li class="menu_li">Cinnamoroll</li>
+                <li class="menu_li">My Melody</li>
+                <li class="menu_li">Pompom Purin</li>
+                <li class="menu_li">Kuromi</li>
+            </ul>
+        </div>
         
-
-        <p class="menu_p services_title">Hover Me </p>
-        <ul class="menu_ul  services_menu hidden">
-            <li class="menu_li">Menu Item #1</li>
-            <li class="menu_li">Menu Item #2</li>
-            <li class="menu_li">Menu Item #3</li>
-            <li class="menu_li">Menu Item #4</li>
-            <li class="menu_li">Menu Item #5</li>
-        </ul>
+        <div class="container">
+            <p class="menu_p ">Hover Me 2</p>
+            <ul class="menu_ul  hidden">
+                <li class="menu_li">Menu Item #1</li>
+                <li class="menu_li">Menu Item #2</li>
+                <li class="menu_li">Menu Item #3</li>
+                <li class="menu_li">Menu Item #4</li>
+                <li class="menu_li">Menu Item #5</li>
+            </ul>
+        </div>
      
-
-        <p class="menu_p p_title">Testing Ps </p>
-        <ul class="menu_ul p_menu hidden">
-            <li class="menu_li">Bye Kitty</li>
-            <li class="menu_li">RollyPolly</li>
-            <li class="menu_li">Nour Melody</li>
-            <li class="menu_li">Pompom</li>
-            <li class="menu_li">Kuoppi</li>
-        </ul>
+        <div class="container">
+            <p class="menu_p">Hover Me 3</p>
+            <ul class="menu_ul hidden">
+                <li class="menu_li">Bye Kitty</li>
+                <li class="menu_li">RollyPolly</li>
+                <li class="menu_li">Nour Melody</li>
+                <li class="menu_li">Pompom</li>
+                <li class="menu_li">Kuoppi</li>
+            </ul>
+        </div>  
     
     </nav>
 
+
+    <div>Testing all menus as hover </div>
 
     <nav class="mobile_menu hidden">
         <img class="hamburger" src="/src/hamburger.png">
